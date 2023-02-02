@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(to bottom, aqua,yellow);
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    display: flex;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,yellow,aqua);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.social{
+    margin: 30px auto;
+    text-align: center;
+}
+.social a{
+    width: 100px;
+    height: 100px;
+    color: aqua;
+    margin: 0 12px;
+    background-color: yellow;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    margin-bottom: 30px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, yellow, aqua);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+#student{
+    left: 50px;
+}
+#staff{
+    left: 450px;
+}
