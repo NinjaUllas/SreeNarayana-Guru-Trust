@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     overflow-x: hidden;
 }
 
@@ -12,7 +13,6 @@
     background-image: url(sreeguru.jpg);
     background-size: cover;
     background-position: center;
-    scroll-behavior: smooth;
 }
 
 nav {
